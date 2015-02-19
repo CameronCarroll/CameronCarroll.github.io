@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" type="text/css" href="/css/site.css">
+  </head>
+  <body>
+    <div class="content">
+      <p>I forgot all about how to do a web application. So lets do a quick review.</p>
+
+<h2 id="get-and-post">GET and POST</h2>
+<p>### Code:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;sinatra&#39;</span>
+
+<span class="n">get</span> <span class="s1">&#39;/&#39;</span> <span class="k">do</span>
+  <span class="s1">&#39;hi&#39;</span>
+<span class="k">end</span>
+
+<span class="n">post</span> <span class="s1">&#39;/input&#39;</span> <span class="k">do</span>
+  <span class="n">params</span><span class="o">.</span><span class="n">to_s</span>
+<span class="k">end</span></code></pre></div>
+
+<h3 id="curl">CURL:</h3>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>curl localhost:4567
+hi%
+<span class="nv">$ </span>curl --data <span class="s2">&quot;hey&quot;</span> localhost:4567/input
+<span class="o">{</span><span class="s2">&quot;hey&quot;</span><span class="o">=</span>&gt;nil<span class="o">}</span>%</code></pre></div>
+
+<h3 id="discussion">Discussion:</h3>
+<p>It’s simple, really. We can GET a route and provide it with the HTML text, and we can POST to a route and whatever we post shows up in params. All it needs is sugar!</p>
+
+<h2 id="a-quick-skin">A Quick Skin</h2>
+<p>I wasted no time in throwing Bootstrap into my project, via CDN since I’m lazy. After changing my raw return string to a erb :index, adding a views directory, views/index.erb and views/layout.erb, we’re ready to apply Bootstrap to the layout. A &lt;%= yield %&gt; brings in index.erb’s content, and we’re in business.</p>
+
+<p>I added a jumbotron and a login shim and played around with the submission. Bootstrap form example needs the method and action added, as well as names added to the fields for anything to actually show up in the submitted params.</p>
+
+    </div>
+  </body>
+</html>
