@@ -14,7 +14,7 @@ layout: default
 * 1/2c flour
 * 1/4c milk
 * 1/4c water
-* 1/8c baking powder
+* 1.5 Tbs baking powder
 * 1 tsp salt.
 
 ## Frying
