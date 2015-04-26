@@ -1,7 +1,7 @@
 ---
 title: Battered Bangers and Mash
 category: food
-layout: default
+layout: back
 ---
 
 # Battered Bangers and Mash

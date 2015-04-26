@@ -1,7 +1,7 @@
 ---
 title: Almond Chicken
 category: food
-layout: default
+layout: back
 ---
 
 # Almond Breaded or Fried Chicken

@@ -8,8 +8,12 @@ body {
   background-color: #fafafa;
   width: 70%;
   margin: 0 auto;
-  padding: 5px;
+  padding: 25px;
   border-radius: 10px;
+}
+
+.nav {
+  padding: 10px;
 }
 
 .left {
