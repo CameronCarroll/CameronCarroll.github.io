@@ -11,11 +11,10 @@ title: Cameron Carroll
     <h1> Cameron's Log </h1>
     <ul>
       {% for post in site.posts %}
-      <dl>
-        <dt><a href="{{post.url}}">{{post.title}}</a></dt>
-        <dd>{{post.month_year}} (Category: {{post.category}})</dd>
-
-      </dl>
+        <li><dl>
+          <dt><a href="{{post.url}}">{{post.title}}</a></dt>
+          <dd>{{post.month_year}} (Category: {{post.category}})</dd>
+        </li></dl>
       {% endfor %}
     </ul>
   </body>
