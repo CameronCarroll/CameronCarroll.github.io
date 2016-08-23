@@ -2,6 +2,7 @@
 title: Modern World History Survey (part 1)
 category: school
 layout: back
+month_year: Winter 2016
 ---
 
 Contents:

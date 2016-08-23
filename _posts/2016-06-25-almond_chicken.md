@@ -2,6 +2,7 @@
 title: Almond Chicken
 category: food
 layout: back
+month_year: Summer 2016
 ---
 
 # Almond Chicken

@@ -2,6 +2,7 @@
 title: HDMI is Default ALSA Sound Device
 category: linux
 layout: back
+month_year: Winter 2014
 ---
 
 # Default Sound Card

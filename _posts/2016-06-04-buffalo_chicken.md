@@ -2,6 +2,7 @@
 title: Buffalo Fried Chicken
 category: food
 layout: back
+month_year: Summer 2016
 ---
 
 ## Chicken:

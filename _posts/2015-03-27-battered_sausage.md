@@ -2,6 +2,7 @@
 title: Battered Bangers and Mash
 category: food
 layout: back
+month_year: Spring 2015
 ---
 
 # Battered Bangers and Mash
