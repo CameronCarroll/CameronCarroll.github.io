@@ -1,10 +1,10 @@
 body {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
   background-image: url('/images/bg3.png')
 }
 
 .content {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
   background-color: #fafafa;
   width: 70%;
   margin: 0 auto;
@@ -13,7 +13,21 @@ body {
 }
 
 .nav {
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
   padding: 10px;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
 }
 
 .left {
@@ -29,4 +43,19 @@ img.center {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid grey;
+}
+
+.quote {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+}
+
+code {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 16px;
+}
+
+div.highlighter-rouge {
+  background-color: #ffccff;
+  padding-left: 7px;
 }
