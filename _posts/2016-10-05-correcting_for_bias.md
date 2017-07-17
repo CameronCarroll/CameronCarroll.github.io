@@ -18,6 +18,7 @@ More generally, bias is offset. In electrical, a biased voltage is 'centered' at
 
 How do we actually calculate bias?
 --------------------------------------
-Source: Thanks Professor Torres.
 ![Calculations for bias](/images/lsf.png)
-I don't know what the hell this really means, it came from taking the derivative of some LSF stuff. Anyway that's enough, though, because bias can be calculated from bias = -b / a
+
+Source: Thanks Professor Torres.
+It came from taking the derivative of some LSF stuff. Bias can be calculated from bias = -b / a
