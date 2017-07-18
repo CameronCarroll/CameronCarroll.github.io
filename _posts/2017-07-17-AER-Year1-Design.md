@@ -9,7 +9,7 @@ Introduction
 ------------------------
 AER (Aztec Electric Racing) is a new FSAE electric team at San Diego State. I initially joined as a fresh transfer student, completely clueless about any single aspect of building a car. After only one year of being in this club, I have been empowered in both design and manufacturing, and look forward to another three semesters of learning and building.
 
-Our first FSAE competition is over, and it is time to look back. This review is less about the specific engineering choices made and more about how the team worked and evolved together.
+Our first FSAE competition is over, and it is time to look back. This review is less about the specific engineering choices made and more about how the team worked and evolved together. The scope concerns the Tractive and Controls systems -- Anything electrical, as well as the things that "make the car go."
 
 Timeline
 ------------
