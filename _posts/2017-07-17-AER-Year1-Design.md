@@ -35,6 +35,14 @@ Timeline
         * As a FSAE alumni explained to us, when you cannot detect or handle a failure in an FMEA, you simply leave the box blank. The risk score blows up, and is easily flagged for redesign.
         * The ESF was initially 'fluffed up' which not only missed the point of the document, but takes up valuable space in the maximum 100-page document. With datasheets for every electrical component in the system (as the judges expect) and every section filled out, space becomes a premium.
 
+* **Critical Design Review**
+  * As the pinnacle of our initial designs, the CDR featured first attempts at a motor + driveline package, and an accumulator with cooling. The Emrax motor, a Chinese pouch cell, and Bamocar controller were analyzed for weight, power and cooling.
+  * Our Tractive system had only worked on these few components in detail, although we had iterated on them a few times. This left many of the aforementioned unknown unknowns. (You're probably tired of reading that tired phrase, but it was a huge problem for our team.)
+  * Controls team had concepts for the circuits which may or may not have worked, but they never picked component values, desk-checked that the circuits worked, or built/bench tested the circuits.
+    * They did pick all of the necessary sensors for the vehicle.
+  * Safety circuit concept existed and had been analyzed, but the Controls captain left little to no instruction on how to carry on his work. (Work mostly had to be scrapped and redone.)
+  * Torque vectoring and regenerative braking were analyzed before the basics had been completed, spreading controls further.
+
 * **December 2016**
     * Surprise! Club receives none of the expected funding from the school, and begins to evaluate alternative designs for the Tractive system. (Our initial modus operandi assumed whatever funding we required, an ambitious promise from our president. -- Baja got all the money, and both Formula teams were left with nothing.)
         * As with every other setback our team worked through, this was frustrating but ultimately a *good thing.* Our dream design, with the Emrax motor and the worlds most perfect battery cells, was put on the chopping block. We were instead forced to consider cost/power/weight tradeoffs.
