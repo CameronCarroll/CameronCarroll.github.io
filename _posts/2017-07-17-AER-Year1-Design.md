@@ -39,7 +39,8 @@ Timeline
   * As the pinnacle of our initial designs, the CDR featured first attempts at a motor + driveline package, and an accumulator with cooling. The Emrax motor, a Chinese pouch cell, and Bamocar controller were analyzed for weight, power and cooling.
   * Our Tractive system had only worked on these few components in detail, although we had iterated on them a few times. This left many of the aforementioned unknown unknowns. (You're probably tired of reading that tired phrase, but it was a huge problem for our team.)
   * Controls team had concepts for the circuits which may or may not have worked, but they never picked component values, desk-checked that the circuits worked, or built/bench tested the circuits.
-    * They did pick all of the necessary sensors for the vehicle.
+    * Many electrical safety components were passed back and forth between Tractive and Controls (BMS, precharge/discharge, contactor-driving safety circuit) for months because nobody knew what they even were, or what work they entailed.
+    * The majority of our members came from the existing combustion, bringing considerable knowledge regarding all of the mechanical systems on the vehicle. We really did not grasp exactly what was required for the electrical systems, and didn't have much of an idea of the quality of work expected by the judges. This contributed to the stagnation of the controls system.
   * Safety circuit concept existed and had been analyzed, but the Controls captain left little to no instruction on how to carry on his work. (Work mostly had to be scrapped and redone.)
   * Torque vectoring and regenerative braking were analyzed before the basics had been completed, spreading controls further.
 
@@ -47,4 +48,4 @@ Timeline
     * Surprise! Club receives none of the expected funding from the school, and begins to evaluate alternative designs for the Tractive system. (Our initial modus operandi assumed whatever funding we required, an ambitious promise from our president. -- Baja got all the money, and both Formula teams were left with nothing.)
         * As with every other setback our team worked through, this was frustrating but ultimately a *good thing.* Our dream design, with the Emrax motor and the worlds most perfect battery cells, was put on the chopping block. We were instead forced to consider cost/power/weight tradeoffs.
 
-<b><a href="engineering/2017/07/17/AER-Year1-Manufacturing.html">Continuation: AER's second semester of design and manufacturing</a></b>
+<b><a href="/engineering/2017/07/17/AER-Year1-Manufacturing.html">Continuation: AER's second semester of design and manufacturing</a></b>
